@@ -58,6 +58,11 @@ end
    end
  end
  def sell_pets
+   self.pets.each do|pets|
+     pets.each do|allPets|
+       allPets.mood = "nervous"
+     end 
+   end
  end
  def list_pets
  end
