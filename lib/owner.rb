@@ -43,6 +43,8 @@ end
    dog
  end
  def walk_dogs
+   dog.mood = "happy"
+   dog
  end
  def play_with_cats
  end
