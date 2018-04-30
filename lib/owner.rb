@@ -27,4 +27,10 @@ end
      return "I am a human."
    end
  end
+ def buy_fish
+ end
+ def buy_cat
+ end
+ def buy_dog
+ end
 end
