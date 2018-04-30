@@ -12,7 +12,7 @@ class Owner
  def self.reset_all
    @@all = []
  end
- def count
+ def self.count
    @@all
  end
 end
