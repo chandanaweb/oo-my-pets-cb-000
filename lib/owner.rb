@@ -27,7 +27,10 @@ end
      return "I am a human."
    end
  end
- def buy_fish
+ def buy_fish(name)
+   fish = Fish.new(name)
+   self.pets[:fishes] << fish
+   fish
  end
  def buy_cat
  end
