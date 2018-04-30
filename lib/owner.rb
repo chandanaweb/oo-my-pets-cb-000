@@ -10,6 +10,9 @@ class Owner
    @@all
  end
  def self.reset_all
-   @@all.length
+   @@all = []
+ end
+ def count
+   @@all
  end
 end
