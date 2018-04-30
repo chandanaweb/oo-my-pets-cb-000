@@ -5,7 +5,7 @@ class Owner
    @name = name
    @pets = {:fishes => [], :dogs => [], :cats => []}
    @@all << self
-   @@all << @pets
+   #@@all << @pets
  end
  def self.all
    @@all
