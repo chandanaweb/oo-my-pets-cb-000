@@ -33,8 +33,14 @@ end
    fish
  end
  def buy_cat
+   cat = Cat.new(name)
+   self.pets[:cats] << cat
+   cat
  end
  def buy_dog
+   dog = Dog.new(name)
+   self.pets[:dogs] << dog
+   dog
  end
  def walk_dogs
  end
