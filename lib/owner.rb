@@ -43,8 +43,9 @@ end
    dog
  end
  def walk_dogs
+   self.pets[:dogs].each do|dog|
    dog.mood = "happy"
-   dog
+   end
  end
  def play_with_cats
  end
