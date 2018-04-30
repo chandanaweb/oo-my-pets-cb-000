@@ -5,8 +5,7 @@ class Owner
    @name = name
    @pets = {:fishes => [], :dogs => [], :cats => []}
    @@all << self
-   #@@all << @pets
- end
+end
  def self.all
    @@all
  end
@@ -15,5 +14,12 @@ class Owner
  end
  def self.count
    @@all.length
+ end
+ def self.species
+   if @@all.name == "human"
+     return "human"
+   else
+     return "NoMethodError"
+   end
  end
 end
