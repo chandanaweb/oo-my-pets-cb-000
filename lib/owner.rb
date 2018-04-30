@@ -15,7 +15,7 @@ end
  def self.count
    @@all.length
  end
- def self.species
+ def species
    if @@all.name == "human"
      return "human"
    else
