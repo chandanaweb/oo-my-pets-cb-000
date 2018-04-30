@@ -9,4 +9,7 @@ class Owner
  def self.all
    @@all
  end
+ def count
+   @@all.length
+ end
 end
