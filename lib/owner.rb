@@ -22,4 +22,9 @@ end
      return "NoMethodError"
    end
  end
+ def say_species
+   if self.name == "human"
+     return "I am a human."
+   end
+ end
 end
