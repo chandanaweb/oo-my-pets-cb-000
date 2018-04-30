@@ -1,7 +1,7 @@
 class Dog
-attr_accessor :name
-def initialize(name)
+attr_accessor :name, :mood
+def initialize(name, mood = "happy")
   @name = name
-  #@mood = mood
+  @mood = mood
 end
 end
